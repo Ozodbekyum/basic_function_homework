@@ -3,4 +3,11 @@
 //  Create function arguments a.
 
 //  Increase the value of a to one and return.
-void main() {}
+void main() {
+ int d=func(1);
+ print(d);
+}
+
+int func(a){
+    return a+1;
+}
