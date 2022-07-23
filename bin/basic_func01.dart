@@ -2,10 +2,10 @@
 
 //  Return the value 0
 void main() {
-    String x = func();
+    int x = func();
     print(x);
 }
 
-String func() {
-    return '0';
+int func() {
+    return 0;
 }
